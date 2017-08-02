@@ -1,5 +1,4 @@
 # GoTwitchAPI
-======================
 
 Installation
 -----------
@@ -9,7 +8,7 @@ Install GoTwitchAPI using the "go get" command:
 
 Example
 -----------
-'''
+```
 package main
 
 import (
@@ -25,9 +24,9 @@ func main()  {
 	fmt.Println(z.Preview.Large)
 	fmt.Println(z.Channel.ProfileBanner)
 }
-'''
+```
 
-'''
+```
 package main
 
 import (
@@ -41,4 +40,4 @@ func main()  {
 	fmt.Println((*top.Streams)[1].Viewers)
 	fmt.Println((*top.Streams)[4].Viewers)
 }
-'''
+```
